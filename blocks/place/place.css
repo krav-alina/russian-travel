@@ -1,0 +1,33 @@
+.place {
+    margin:0;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 472px));
+    gap: 40px;
+}
+
+@media screen and (max-width:1024px){
+    .place{
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 456px));
+        gap: 32px;
+        margin-top: 80px;
+    }  
+} 
+
+@media screen and (max-width:768px){
+    .place{
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 352px));
+        gap: 16px;
+        margin-top: 73px;
+    }  
+} 
+
+@media screen and (max-width:320px){
+    .place{
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 288px));
+        gap: 32px;
+        margin-top: 50px;
+    }  
+} 
