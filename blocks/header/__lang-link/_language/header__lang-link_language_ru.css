@@ -1,4 +1,4 @@
-.header__lang-link_ru{
+.header__lang-link_language_ru{
     text-decoration: underline;
     font-style: normal;
     font-weight: 400;
@@ -8,13 +8,13 @@
     color: #FFFFFF;
 }
 
-.header__lang-link_ru:hover {
+.header__lang-link_language_ru:hover {
     opacity: .5;
     transition: ease-out 2s;
   }
 
 @media screen and (max-width:320px){
-    .header__lang-link_ru{
+    .header__lang-link_language_ru{
         font-size: 18px;
         line-height: 111%;
     }  

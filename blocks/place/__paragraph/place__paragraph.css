@@ -1,4 +1,4 @@
-.place__text__paragraph{
+.place__paragraph{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -8,12 +8,12 @@
     margin:0;
 }
 
-.place__text__paragraph:nth-child(2n){
+.place__paragraph:nth-child(2n){
     margin-top:26px;
 }
 
 @media screen and (max-width:320px){
-    .place__text__paragraph{
+    .place__paragraph{
         font-size: 16px;
         margin-left: 16px;
         margin-right: 16px;

@@ -1,4 +1,4 @@
-.header__lang-link_en{
+.header__lang-link_language_en{
     margin-left: 18px;
     font-style: normal;
     font-weight: 400;
@@ -9,13 +9,13 @@
     text-decoration: none;
 }
 
-.header__lang-link_en:hover {
+.header__lang-link_language_en:hover {
     opacity: .5;
     transition: ease-out 2s;
   }
 
 @media screen and (max-width:320px){
-    .header__lang-link_en{
+    .header__lang-link_language_en{
         font-size: 18px;
         line-height: 111%;
     }  
