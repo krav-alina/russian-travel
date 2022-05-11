@@ -5,9 +5,15 @@
     padding-bottom: 24px;
     display: flex;
     flex-direction: row;
-    overflow-wrap: normal;
     justify-content: space-between;
 }
+
+@media screen and (max-width:1279px){
+    .footer{
+      margin-left: 48px;
+      margin-right: 48px;
+    }  
+  } 
 
 @media screen and (max-width:1024px){
     .footer{
@@ -21,9 +27,9 @@
     }  
 } 
 
-@media screen and (max-width:320px){
+@media screen and (max-width:700px){
     .footer{
-        margin: calc(64px - 32px) 16px auto auto;
+        margin: calc(64px - 32px) auto auto 16px;
         flex-direction: column;
     }  
 } 

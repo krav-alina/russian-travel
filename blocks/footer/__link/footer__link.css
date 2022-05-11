@@ -10,13 +10,15 @@
 }
 
 .footer__link:hover {
-    opacity: .5;
+    opacity: .8;
     transition: ease-out 2s;
   }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:491px){
     .footer__link{
         padding-right: 0;
         margin-top: 32px;
+        font-size: 24px;
+        line-height: 100%;
     }  
 } 

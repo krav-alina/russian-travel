@@ -1,7 +1,6 @@
 .intro__text {
   position: relative;
   max-width: 690px;
-  min-height: 208px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10,6 +9,7 @@
   color: #FFFFFF;
   margin: 0;
   margin-top: 40px;
+  padding:0;
 }
 
 @media screen and (max-width:320px){
