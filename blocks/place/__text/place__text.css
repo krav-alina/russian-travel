@@ -4,8 +4,23 @@
     margin: 0;
 }
 
+@media screen and (max-width:1024px){
+    .place__text{
+        padding-top: calc(48px - 32px);
+        padding-right: 16px;
+    }  
+} 
+
+@media screen and (max-width:768px){
+    .place__text{
+        padding-top: calc(48px - 32px);
+        padding-right: 12px;
+    }  
+} 
+
 @media screen and (max-width:450px){
     .place__text{
         margin-top: 0;
+        padding-top: 0;
     }  
 } 

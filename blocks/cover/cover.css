@@ -5,14 +5,12 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    min-height: 740px;
+    z-index: 0;
 }
 
 @media screen and (max-width:1024px){
     .cover{
         margin-top: 92px;
-        max-width:1024px;
-        min-height: 640px;
     }  
 } 
 
@@ -20,14 +18,11 @@
     .cover{
         margin: 0;
         margin-top: 90px;
-        min-height: 480px;
     }  
 } 
 
 @media screen and (max-width:320px){
     .cover{
         margin-top: 66px;
-        max-width:320px;
-        min-height: 200px;
     }  
 } 

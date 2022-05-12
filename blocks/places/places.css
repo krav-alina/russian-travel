@@ -10,6 +10,7 @@
 @media screen and (max-width:1024px){
     .places{
         margin-top: 12px;
+        max-width:928px;
     }  
 } 
 
